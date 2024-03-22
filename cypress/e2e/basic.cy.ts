@@ -4,7 +4,7 @@ describe("empty spec", () => {
   });
 
   it("display header text", () => {
-    cy.get("h1").contains("효주야 안녕?", { matchCase: false });
+    cy.get("h1").contains("효주야 안녕??ㅋㅋ", { matchCase: false });
   });
 
   it("displays Click button", () => {
